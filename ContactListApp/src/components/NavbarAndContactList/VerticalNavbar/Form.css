@@ -1,0 +1,59 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.add-new-img {
+    width: 140px;
+    height: 140px;
+}
+
+.add-new-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.input-text, .input-tel, .input-email {
+    display: flex;
+    flex-direction: column;  /* Changed to column for proper alignment */
+    align-items: center;     /* Center align inputs */
+    margin-bottom: 10px;
+}
+
+.input-text input[type=text], .input-email input[type=email], .input-tel input[type=text] {
+    width: 190px;  /* Standardized width for all inputs */
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+}
+
+.input-text input[type=text]:focus, .input-email input[type=email]:focus, .input-tel input[type=text]:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,65 @@
+.contact-list {
+    height: 100%;
+    width: 100%;
+    margin: 7px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #d7dcdf;
+}
+
+.contact-list p,
+.contact-list h2,
+.contact-list .fa-solid {
+    color: #646464;
+}
+
+.contact-list .fa-solid {
+    margin-right: 15px;
+}
+
+.contact-list table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.contact-list th,
+.contact-list td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-list th {
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-list th p {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-list th p:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.contact-list th p:after {
+    content: ' \25B2\25BC'; /* Default sorting indicators */
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.contact-list th.asc p:after {
+    content: ' \25B2'; /* Ascending */
+}
+
+.contact-list th.desc p:after {
+    content: ' \25BC'; /* Descending */
+}
+
+.contact-list .profile-img-box {
+    margin-right: 0px;
+    margin-left: 10px;
+}

@@ -1,0 +1,17 @@
+button {
+    padding: 6px 12px;  /* Smaller padding */
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text color */
+    border: none;  /* No border */
+    border-radius: 3px;  /* Rounded corners */
+    font-size: 0.8rem;  /* Smaller font size */
+    cursor: pointer;  /* Pointer cursor on hover */
+    margin-top: 10px;  /* Space above the button */
+    width: auto;  /* Auto width */
+    max-width: 150px;  /* Maximum width */
+    text-align: center;  /* Center align text */
+}
+
+button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}

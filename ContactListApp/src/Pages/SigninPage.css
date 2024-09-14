@@ -1,0 +1,110 @@
+/* SigninPage.css */
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.signin-card {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+    justify-content: center; /* Center align content vertically */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Center the text */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.signin-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #7157e7;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.signin-btn:hover {
+    background-color: #5a47c1; /* Darker shade on hover */
+}
+
+/* Error and Success messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* New "Don't have an account? Sign Up" link */
+.signin-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signin-link p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signin-link-btn {
+    background-color: transparent;
+    border: none;
+    color: #7157e7;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signin-link-btn:hover {
+    color: #5a47c1; /* Darker shade on hover */
+}
